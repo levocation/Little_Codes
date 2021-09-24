@@ -1,0 +1,11 @@
+#include <iostream>
+#include <string>
+#include <Windows.h>
+
+void setConsoleSize(int column, int line) {
+    std::string text = "mode con: cols=" + std::to_string(column) + "lines=" + to_string(line);
+    system(text.c_str());
+}
+int main() {
+    setConsoleSize(150, 150);
+}

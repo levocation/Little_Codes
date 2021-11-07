@@ -33,12 +33,12 @@ int main() {
 	slotList.emplace_back('Q');
 
 	char myList[3];
-
+	//
 	while (true)
 	{
 		if (GetAsyncKeyState(VK_SPACE)) {
 			count++;
-			cout << count << "��° �귿 : ";
+			cout << count << "¹øÂ° ·ê·¿ : ";
 			for (int i = 0; i < 3; i++)
 			{
 				myList[i] = slotList[randNum(0, slotList.size() - 1)];

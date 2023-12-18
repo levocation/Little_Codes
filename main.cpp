@@ -3,7 +3,7 @@
 #include <vector>
 #include <random>
 
-// Casino
+// 카지노 유사구현
 
 using namespace std;
 
